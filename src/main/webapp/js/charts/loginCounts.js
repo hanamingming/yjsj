@@ -5,7 +5,7 @@
     	if(jsonObj.status==0){
     		var list = jsonObj.data;
     		
-    		  //BAR CHART 213
+    		  //BAR CHART 
     	    var bar = new Morris.Bar({
     	      element: 'bar-chart',
     	      resize: true,
