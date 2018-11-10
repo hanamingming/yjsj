@@ -23,13 +23,6 @@
 		<property name="username" value="root"></property>
 		<property name="password" value="root"></property>
 	</bean>
-<!-- 	<bean id="jdbcDataSource"
-		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
-		<property name="url" value="jdbc:mysql://localhost:3306/javaee?useSSL=false"></property>
-		<property name="username" value="root"></property>
-		<property name="password" value="334421"></property>
-	</bean> -->
 	<!-- spring和MyBatis完美整合，不需要mybatis的配置映射文件 -->
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="jdbcDataSource" />
